@@ -1,0 +1,119 @@
+body {
+	background-color: #262626;
+}
+
+
+.grid {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+    width: 750px;
+    height: 750px;
+    margin-top: 30px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    background-color: white;
+}
+
+.row {
+	display: flex;
+	flex: 1;
+}
+
+.square {
+	flex: 1;
+}
+
+
+.options {
+	padding-top: 20px;
+	margin: 0 auto;
+	text-align: center;
+	width: 750px;
+	display: flex;
+}
+
+	.options button {
+		flex: 1;
+		height: 40px;
+		border-radius: 8px;
+		border-style: none;
+		background-color: white;
+	}
+
+		#solid {
+			margin-right: 10px;
+		}
+
+		#greyScale {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		#randomColor {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		#reset {
+			margin-left: 10px;
+		}
+
+
+.palette {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	text-align: center;
+	width: 750px;
+	display: flex;
+	justify-content: space-around;
+}
+
+	.palette button {
+		flex: 1;
+		height: 40px;
+		border-radius: 8px;
+		border-width: 0px;
+	}
+
+		#black {
+			background-color: black;
+			margin-right: 10px;
+		}
+
+		#red {
+			background-color: red;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		#blue {
+			background-color: blue;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		#yellow {
+			background-color: yellow;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		#orange {
+			background-color: orange;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		#purple {
+			background-color: purple;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		#green {
+			background-color: green;
+			margin-left: 10px;
+		}
