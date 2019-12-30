@@ -183,7 +183,7 @@ red.addEventListener('click', e => {
 		button.style.border = '0px solid white';   
 	});
 
-	red.style.border = '2px solid grey';
+	red.style.border = '2px solid white';
 });
 
 blue.addEventListener('click', e => {
