@@ -1,4 +1,5 @@
 const grid = document.querySelector('.grid');
+const buttons = document.querySelectorAll('button');
 
 const reset = document.querySelector('#reset');
 const randomColor = document.querySelector('#randomColor');
@@ -60,6 +61,7 @@ function changeColor() {
 				penColor = ('#000000'.slice(0, -color.length) + color).toString();
 			}
 
+			// Darkens square by 10% if already colored
 			if (useGreyScale) {
 				if (!isColored[i]) {
 					lightPercent[i] = 90;
@@ -86,7 +88,6 @@ function promptGridSize() {
 
 	// Resets grid
 	for (let j = 0; j < size; j++) {
-
 		grid.removeChild(row[j]);
 
 		for (let i = 0; i < size; i++) {
@@ -170,8 +171,6 @@ black.addEventListener('click', e => {
 
 	black.style.border = '2px solid white';
 });
-
-const buttons = document.querySelectorAll('button');
 
 red.addEventListener('click', e => {
 	penColor = 'red';
