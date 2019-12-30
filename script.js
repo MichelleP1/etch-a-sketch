@@ -254,7 +254,6 @@ green.addEventListener('click', e => {
 solid.style.backgroundColor = 'grey';
 black.style.border = '2px solid white';
 
-
 reset.addEventListener('click', promptGridSize);
 
 createGrid(size);
