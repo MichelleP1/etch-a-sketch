@@ -257,3 +257,4 @@ reset.addEventListener('click', promptGridSize);
 
 createGrid(size);
 changeColor();
+
